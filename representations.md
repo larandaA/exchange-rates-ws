@@ -2,7 +2,7 @@
 
 ## Bank
 
-Representation of a bank information. It contains a full bank name (`name`) and a short unique descriptor (`id`). The `self` field contains a link to this resource that can be used in this (PLACEHOLDER) request.
+Representation of a bank information. It contains a full bank name (`name`) and a short unique descriptor (`id`). The `self` field contains a link to this resource that can be used in [this][get-bank] request.
 
 ```{json}
 {
@@ -28,7 +28,7 @@ Representation of an exchange rate info. The `toName` and `toUnit` fields contai
 
 ## Exchange rate
 
-Representation that contains the full information about the excange rate in a single bank. The `bank` field contains the representaion of the bank that offers the rate described in the `rate` field in format of rate info representation. The `self` field contains the link to this resource that can be used either in this(PLACEHOLDER) either in this(PLACEHOLDER) request.
+Representation that contains the full information about the excange rate in a single bank. The `bank` field contains the [representaion of the bank][bank-representation] that offers the rate described in the `rate` field in format of [rate info representation][rate-representation]. The `self` field contains the link to this resource that can be used either in [this][get-rate] either in [this][get-min] request.
 
 ```{json}
 {
@@ -37,3 +37,9 @@ Representation that contains the full information about the excange rate in a si
     "self": str,
 }
 ```
+
+[rate-representation]: representations.md#rate-info
+[bank-representation]: representations.md#bank
+[get-bank]: requests.md#getting-a-single-bank-info
+[get-rate]: requests.md#getting-rate-that-is-offered-by-a-single-bank
+[get-min]: requests.md#getting-the-minimum-rate
