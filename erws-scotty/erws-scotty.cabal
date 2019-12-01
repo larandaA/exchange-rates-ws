@@ -11,3 +11,5 @@ executable          erws-scotty
     build-depends:  aeson
                   , base   >= 4      && < 5
                   , scotty
+                  , wai
+                  , wai-cli
