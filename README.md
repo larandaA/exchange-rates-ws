@@ -8,3 +8,9 @@ This service aggregates the exchange rates that are offered by all the registere
 * [Description](api-description.md)
 * [Representations](representations.md)
 * [Requests](requests.md)
+
+## Technologies
+
+* [Overview](technologies.md#overview)
+* [Haskell & Scotty](technologies.md#haskell--scotty)
+* [Crystal & Kemal](technologies.md#crystal--kemal)
