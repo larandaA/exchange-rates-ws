@@ -2,13 +2,15 @@
 
 ## Bank
 
-Representation of a bank information. It contains a full bank name (`name`) and a short unique descriptor (`id`). The `self` field contains a link to this resource that can be used in [this][get-bank] request.
+Representation of a bank information. It contains a full bank name (`name`) and a short unique descriptor (`id`).
+
+The `rates` field contains a link to rates information offered by this bank (used in [this][get-rate] request).
 
 ```{json}
 {
     "name": str,
     "id": str,
-    "self": str,
+    "rates": "/banks/:id/rates",
 }
 ```
 
