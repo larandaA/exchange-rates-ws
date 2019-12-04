@@ -7,4 +7,4 @@ The WEB-service uses REST architecture style. Some of the reasons why this archi
 * The messages are actually resources representations.
 * The server responses to GET requests can be cached.
 * All of the resources have their identifiers that are used as URI.
-* Hypermedia and specific content types will help to keep API flexible.
+* Hypermedia and specific content types (self-descriptive messages) will help to keep API flexible.
