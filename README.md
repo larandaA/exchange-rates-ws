@@ -14,3 +14,10 @@ This service aggregates the exchange rates that are offered by all the registere
 * [Overview](technologies.md#overview)
 * [Haskell & Scotty](technologies.md#haskell--scotty)
 * [Crystal & Kemal](technologies.md#crystal--kemal)
+
+## CAP
+
+* [General thoughts](cap.md#general-thoughts)
+* [CP](cap.md#cp)
+* [AP](cap.md#ap)
+* [Decision and technologies](cap.md#decision-and-technologies)
