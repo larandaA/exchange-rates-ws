@@ -26,3 +26,5 @@ It means that increasing number of CPUs will help to increase the load that the 
 
 The rest of the service will be implemented in Crystal because it shows more stable results handling much higher load.
 It is more reliable since the overload doesn't lead to unrecoverable errors. Moreover it more efficiently utilizies CPU.
+
+All the load testing configuration files can be found [here](load-testing).
