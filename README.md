@@ -27,3 +27,7 @@ This service aggregates the exchange rates that are offered by all the registere
 * [Haskell & Scotty](hw-load.md#haskell--scotty)
 * [Crystal & Kemal](hw-load.md#crystal--kemal)
 * [Decision](hw-load.md#decision)
+
+## Final
+
+* [Final implementation and testing](final.md)
