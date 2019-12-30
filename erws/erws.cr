@@ -67,7 +67,7 @@ class ExchangeRate
 
 end
 
-DB.open "cassandra://localhost/erws" do |db|
+DB.open "cassandra://localhost/erws?initial_pool_size=50&max_pool_size=50&max_idle_pool_size=50" do |db|
 
   min_rate = -> {  
     result = nil
@@ -176,6 +176,8 @@ DB.open "cassandra://localhost/erws" do |db|
     response.self = "/rates/min"
     response.to_json
   end
+
+  logging false
 
   Kemal.run
 
