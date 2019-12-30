@@ -1,0 +1,9 @@
+name: erws
+version: 0.1.0
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+  cassandra:
+    github: kaukas/crystal-cassandra
