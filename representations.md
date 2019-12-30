@@ -16,7 +16,7 @@ The `rates` field contains a link to rates information offered by this bank (use
 
 ## Rate info
 
-Representation of an exchange rate info. The `toName` and `toUnit` fields contain the name of the currency to buy and amount of money to buy. The `fromName` and `fromUnit` fields contain information about the currency to sell respectively. The `cost` field contains the amount of units of the currency that you need to sell in order to by one unit of the destination currency. It means that in order to buy `N` of the destination currency you need to sell `(N / toUnit) * cost * fromUnit` of the initial currency.
+Representation of an exchange rate info. The `toName` and `toUnit` fields contain the name of the currency to buy and amount of money to buy. The `fromName` and `fromUnit` fields contain information about the currency to sell respectively. The `cost` field contains the amount of units of the currency that you need to sell in order to by one unit of the destination currency. It means that in order to buy `N` of the destination currency you need to sell `(N / toUnit) * cost * fromUnit` of the initial currency. The `lastUpdate` field stores the timestamp of the rate update that bank provides.
 
 ```{json}
 {
@@ -25,6 +25,7 @@ Representation of an exchange rate info. The `toName` and `toUnit` fields contai
     "toName": str,
     "fromUnit": float,
     "fromName": str,
+    "lastUpdate": str,
 }
 ```
 
