@@ -21,3 +21,9 @@ This service aggregates the exchange rates that are offered by all the registere
 * [CP](cap.md#cp)
 * [AP](cap.md#ap)
 * [Decision and technologies](cap.md#decision-and-technologies)
+
+## Load testing of Hello World
+
+* [Haskell & Scotty](hw-load.md#haskell--scotty)
+* [Crystal & Kemal](hw-load.md#crystal--kemal)
+* [Decision](hw-load.md#decision)
